@@ -15,8 +15,10 @@ class Subclass: Base {
         self.age = age
     }
     
+    //反初始化---》实例在被释放之前，反初始化函数立即调用
     deinit {
         print("SubClass - deinit")
     }
+    
 
 }
