@@ -81,6 +81,61 @@ var a = 100
 a.square()
 print(a)
 
+//扩展下标脚本
+//使用sbuscript关键字添加新下标
+
+//通过下标寻找数字从右到左的第n个数字
+extension Int {
+    subscript(index: Int) -> Int {
+        var decimal = 1
+        if index > 0 {
+            for _ in 1...index {
+                decimal *= 10
+            }
+        }
+        return (self / decimal) % 10
+    }
+}
+print(1235456789[0])
+
+
+//扩展嵌套类型
+extension String {
+    enum Biological {
+        case Plants, Animals, Microbes, Unknown
+    }
+    
+    var biological: Biological {
+        switch String(self).lowercaseString {
+        case "rose", "moly", "orchid":
+            return .Plants
+        case "horse", "ox", "sheep", "deer":
+            return .Animals
+        case "Becteria", "Fungus", "Viruses":
+            return .Microbes
+        default:
+            return .Unknown
+        }
+    }
+}
+
+//将枚举类型和String值联合使用
+func printStringKinds(word: String) {
+    switch word.biological {
+    case .Plants:
+        print("Plants")
+    case .Animals:
+        print("Animals")
+    case .Microbes:
+        print("Microbes")
+    case .Unknown:
+        print("Unknown")
+    }
+}
+
+
+printStringKinds("ox")
+
 
 
 
