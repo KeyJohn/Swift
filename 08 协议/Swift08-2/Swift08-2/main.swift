@@ -84,6 +84,7 @@ class Dice {
 var d6 = Dice(sides: 6, generator: LinearCongruentialGenerator())
 for _ in 1...10 {
     print("Randomdiceroll is \(d6.roll())")
+    
 }
 
 
