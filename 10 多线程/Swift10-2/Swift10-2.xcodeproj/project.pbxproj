@@ -14,6 +14,7 @@
 		65B93E161B574F4000546FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B93E141B574F4000546FE0 /* LaunchScreen.storyboard */; };
 		65B93E211B574F4100546FE0 /* Swift10_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B93E201B574F4100546FE0 /* Swift10_2Tests.swift */; };
 		65B93E2C1B574F4100546FE0 /* Swift10_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B93E2B1B574F4100546FE0 /* Swift10_2UITests.swift */; };
+		65B93E4F1B57605100546FE0 /* PersonOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B93E4E1B57605100546FE0 /* PersonOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		65B93E271B574F4100546FE0 /* Swift10-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift10-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B93E2B1B574F4100546FE0 /* Swift10_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift10_2UITests.swift; sourceTree = "<group>"; };
 		65B93E2D1B574F4100546FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B93E4E1B57605100546FE0 /* PersonOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				65B93E0B1B574F4000546FE0 /* AppDelegate.swift */,
+				65B93E4E1B57605100546FE0 /* PersonOperation.swift */,
 				65B93E0D1B574F4000546FE0 /* ViewController.swift */,
 				65B93E0F1B574F4000546FE0 /* Main.storyboard */,
 				65B93E121B574F4000546FE0 /* Assets.xcassets */,
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B93E4F1B57605100546FE0 /* PersonOperation.swift in Sources */,
 				65B93E0E1B574F4000546FE0 /* ViewController.swift in Sources */,
 				65B93E0C1B574F4000546FE0 /* AppDelegate.swift in Sources */,
 			);
@@ -481,6 +485,7 @@
 				65B93E321B574F4100546FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65B93E331B574F4100546FE0 /* Build configuration list for PBXNativeTarget "Swift10-2Tests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +494,7 @@
 				65B93E351B574F4100546FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65B93E361B574F4100546FE0 /* Build configuration list for PBXNativeTarget "Swift10-2UITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +503,7 @@
 				65B93E381B574F4100546FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
