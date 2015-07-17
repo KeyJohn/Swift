@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Swift10-7/Swift10-7.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Swift10-6/Swift10-6.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Swift10-5/Swift10-5.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Swift10-4/Swift10-4.xcodeproj">
    </FileRef>
    <FileRef
