@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>Thonburi</string>
+		<string>Snell Roundhand</string>
+		<string>Academy Engraved LET</string>
+		<string>Avenir</string>
+		<string>Marker Felt</string>
+	</array>
+	<array>
+		<string>Geeza Pro</string>
+		<string>Arial Rounded MT Bold</string>
+		<string>Trebuchet MS</string>
+		<string>Arial</string>
+	</array>
+	<array>
+		<string>Gurmukhi MN</string>
+		<string>Malayalam Sangam MN</string>
+		<string>Bodoni 72 Oldstyle</string>
+	</array>
+	<array>
+		<string>Cochin</string>
+		<string>Sinhala Sangam MN</string>
+		<string>Hiragino Kaku Gothic ProN</string>
+		<string>Papyrus</string>
+		<string>Verdana</string>
+	</array>
+	<array>
+		<string>Zapf Dingbats</string>
+	</array>
+	<array>
+		<string>Euphemia UCAS</string>
+		<string>Hiragino Mincho ProN</string>
+		<string>Bodoni Ornaments</string>
+		<string>Apple Color Emoji</string>
+		<string>Optima</string>
+	</array>
+	<array>
+		<string>Gujarati Sangam MN</string>
+		<string>Devanagari Sangam MN</string>
+		<string>Times New Roman</string>
+		<string>Kailasa</string>
+		<string>Telugu Sangam MN</string>
+	</array>
+	<array>
+		<string>Heiti SC</string>
+		<string>Apple SD Gothic Neo</string>
+		<string>Futura</string>
+		<string>Bodoni 72</string>
+		<string>Baskerville</string>
+	</array>
+	<array>
+		<string>Chalkboard SE</string>
+		<string>Heiti TC</string>
+		<string>Copperplate</string>
+		<string>Party LET</string>
+		<string>American Typewriter</string>
+	</array>
+	<array>
+		<string>Symbol</string>
+		<string>Avenir Next</string>
+		<string>Noteworthy</string>
+		<string>Bangla Sangam MN</string>
+		<string>Zapfino</string>
+	</array>
+	<array>
+		<string>Tamil Sangam MN</string>
+		<string>Chalkduster</string>
+		<string>Arial Hebrew</string>
+		<string>Georgia</string>
+		<string>Helvetica Neue</string>
+	</array>
+	<array>
+		<string>Gill Sans</string>
+		<string>Palatino</string>
+		<string>Courier New</string>
+		<string>Oriya Sangam MN</string>
+		<string>Didot</string>
+	</array>
+	<array>
+		<string>Bodoni 72 Smallcaps</string>
+	</array>
+</array>
+</plist>
