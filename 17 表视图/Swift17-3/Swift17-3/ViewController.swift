@@ -111,8 +111,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     //将要显示cell时调用的方法
     func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
-        tableView.separatorInset = UIEdgeInsetsMake(-30, 0, 0, 5)
-        tableView.layoutMargins = UIEdgeInsetsMake(-30, 0, 0, 5)
+        
     }
     
 
