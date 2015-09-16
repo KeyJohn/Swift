@@ -116,9 +116,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let lastcell = tableView.cellForRowAtIndexPath(self.lastindexPath)
         lastcell?.accessoryType = .None
         
+        
         //设置单元格打勾
         let cell = tableView.cellForRowAtIndexPath(indexPath)
         cell?.accessoryType = .Checkmark
+        
         
         //记录当前的单元格
         lastindexPath = indexPath
