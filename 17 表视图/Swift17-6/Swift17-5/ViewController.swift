@@ -114,7 +114,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         //取消上一次选中的单元格
         let lastcell = tableView.cellForRowAtIndexPath(self.lastindexPath)
-        lastcell?.accessoryType = .None
+        lastcell?.accessoryType = UITableViewCellAccessoryType.None
         
         
         //设置单元格打勾
