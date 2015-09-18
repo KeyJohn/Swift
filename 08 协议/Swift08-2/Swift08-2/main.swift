@@ -19,6 +19,8 @@ import Foundation
     let privateKey = "123-456-789"
     func certificate() -> String {
         return publicKey + privateKey
+        
+        
     }
     
 }
@@ -30,6 +32,7 @@ print(generator.certificate())
 //在方法或者函数内部改变实例类型的方法称为突变方法
 //在值类型中的函数前缀加上mutating关键字表示该函数允许改变实例和其属性的类型
 //注意： mutating关键字只用于结构体和枚举
+
 protocol MutatingProtocol {
     mutating func turn()
 }
@@ -67,6 +70,8 @@ class LinearCongruentialGenerator: RandomNumberGenerator {
         return lastRandom / m
     }
 }
+
+
 
 class Dice {
     let sides: Int
