@@ -27,9 +27,9 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     var lastPlayIndex: NSInteger = 0
     
-    
     let imageNames = ["chenyixun.jpg", "gaga.jpg", "gem.jpeg", "wanglihong.jpg", "jay.jpg"]
     
+    //此处需要添加5首歌曲添加到工程文件中，文件名应为："浮夸", "Bad Romance", "多远都要在一起", "你不知道的事", "七里香"。
     let songNames = ["浮夸", "Bad Romance", "多远都要在一起", "你不知道的事", "七里香"]
     
     let singerNames = ["陈奕迅", "Lady Gaga", "邓紫棋", "王力宏", "周杰伦"]

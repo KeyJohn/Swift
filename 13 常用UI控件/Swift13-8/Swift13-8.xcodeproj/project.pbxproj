@@ -18,11 +18,6 @@
 		65C7D8D71B6F3222007A7708 /* gem.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 65C7D8D21B6F3222007A7708 /* gem.jpeg */; };
 		65C7D8D81B6F3222007A7708 /* jay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65C7D8D31B6F3222007A7708 /* jay.jpg */; };
 		65C7D8D91B6F3222007A7708 /* wanglihong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65C7D8D41B6F3222007A7708 /* wanglihong.jpg */; };
-		65FC03C41B6E7EDB006DAA24 /* Bad Romance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65FC03BF1B6E7EDB006DAA24 /* Bad Romance.mp3 */; };
-		65FC03C51B6E7EDB006DAA24 /* 七里香.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65FC03C01B6E7EDB006DAA24 /* 七里香.mp3 */; };
-		65FC03C61B6E7EDB006DAA24 /* 你不知道的事.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65FC03C11B6E7EDB006DAA24 /* 你不知道的事.mp3 */; };
-		65FC03C71B6E7EDB006DAA24 /* 多远都要在一起.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65FC03C21B6E7EDB006DAA24 /* 多远都要在一起.mp3 */; };
-		65FC03C81B6E7EDB006DAA24 /* 浮夸.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65FC03C31B6E7EDB006DAA24 /* 浮夸.mp3 */; };
 		65FC03EA1B6E7F68006DAA24 /* audio_bg-Decoded.png in Resources */ = {isa = PBXBuildFile; fileRef = 65FC03CA1B6E7F68006DAA24 /* audio_bg-Decoded.png */; };
 		65FC03EB1B6E7F68006DAA24 /* audio_bg_down-Decoded.png in Resources */ = {isa = PBXBuildFile; fileRef = 65FC03CB1B6E7F68006DAA24 /* audio_bg_down-Decoded.png */; };
 		65FC03EC1B6E7F68006DAA24 /* audio_bg_down@2x-Decoded.png in Resources */ = {isa = PBXBuildFile; fileRef = 65FC03CC1B6E7F68006DAA24 /* audio_bg_down@2x-Decoded.png */; };
@@ -77,11 +72,6 @@
 		65C7D8D21B6F3222007A7708 /* gem.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gem.jpeg; sourceTree = "<group>"; };
 		65C7D8D31B6F3222007A7708 /* jay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jay.jpg; sourceTree = "<group>"; };
 		65C7D8D41B6F3222007A7708 /* wanglihong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wanglihong.jpg; sourceTree = "<group>"; };
-		65FC03BF1B6E7EDB006DAA24 /* Bad Romance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bad Romance.mp3"; sourceTree = "<group>"; };
-		65FC03C01B6E7EDB006DAA24 /* 七里香.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "七里香.mp3"; sourceTree = "<group>"; };
-		65FC03C11B6E7EDB006DAA24 /* 你不知道的事.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "你不知道的事.mp3"; sourceTree = "<group>"; };
-		65FC03C21B6E7EDB006DAA24 /* 多远都要在一起.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "多远都要在一起.mp3"; sourceTree = "<group>"; };
-		65FC03C31B6E7EDB006DAA24 /* 浮夸.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "浮夸.mp3"; sourceTree = "<group>"; };
 		65FC03CA1B6E7F68006DAA24 /* audio_bg-Decoded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "audio_bg-Decoded.png"; sourceTree = "<group>"; };
 		65FC03CB1B6E7F68006DAA24 /* audio_bg_down-Decoded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "audio_bg_down-Decoded.png"; sourceTree = "<group>"; };
 		65FC03CC1B6E7F68006DAA24 /* audio_bg_down@2x-Decoded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "audio_bg_down@2x-Decoded.png"; sourceTree = "<group>"; };
@@ -169,11 +159,6 @@
 		65FC03BE1B6E7EDB006DAA24 /* 歌曲 */ = {
 			isa = PBXGroup;
 			children = (
-				65FC03BF1B6E7EDB006DAA24 /* Bad Romance.mp3 */,
-				65FC03C01B6E7EDB006DAA24 /* 七里香.mp3 */,
-				65FC03C11B6E7EDB006DAA24 /* 你不知道的事.mp3 */,
-				65FC03C21B6E7EDB006DAA24 /* 多远都要在一起.mp3 */,
-				65FC03C31B6E7EDB006DAA24 /* 浮夸.mp3 */,
 			);
 			path = "歌曲";
 			sourceTree = "<group>";
@@ -299,14 +284,11 @@
 				65FC03EA1B6E7F68006DAA24 /* audio_bg-Decoded.png in Resources */,
 				65C7D8D71B6F3222007A7708 /* gem.jpeg in Resources */,
 				65FC04001B6E7F68006DAA24 /* com_slider_max_r-Decoded.png in Resources */,
-				65FC03C41B6E7EDB006DAA24 /* Bad Romance.mp3 in Resources */,
 				65FC04031B6E7F68006DAA24 /* com_thumb_max_h-Decoded.png in Resources */,
 				65FC03F41B6E7F68006DAA24 /* audio_btn_love_h-Decoded.png in Resources */,
 				65FC03F21B6E7F68006DAA24 /* audio_btn_call_hover-Decoded.png in Resources */,
 				65FC04051B6E7F68006DAA24 /* Default-Decoded.png in Resources */,
-				65FC03C81B6E7EDB006DAA24 /* 浮夸.mp3 in Resources */,
 				65FC04111B6E7FA3006DAA24 /* Default@2x.png in Resources */,
-				65FC03C51B6E7EDB006DAA24 /* 七里香.mp3 in Resources */,
 				65FC04091B6E7F68006DAA24 /* 专辑图.jpg in Resources */,
 				65FC03FA1B6E7F68006DAA24 /* audio_btn_play_n-Decoded.png in Resources */,
 				65FC04041B6E7F68006DAA24 /* com_thumb_max_n-Decoded.png in Resources */,
@@ -326,12 +308,10 @@
 				65FC03FD1B6E7F68006DAA24 /* audio_cover_bg-Decoded.png in Resources */,
 				65FC03EB1B6E7F68006DAA24 /* audio_bg_down-Decoded.png in Resources */,
 				65FC03FF1B6E7F68006DAA24 /* com_slider_max_l-Decoded.png in Resources */,
-				65FC03C61B6E7EDB006DAA24 /* 你不知道的事.mp3 in Resources */,
 				65FC03ED1B6E7F68006DAA24 /* audio_bg_up-Decoded.png in Resources */,
 				65FC03F31B6E7F68006DAA24 /* audio_btn_love-Decoded.png in Resources */,
 				65FC040E1B6E7FA3006DAA24 /* Default-568h.png in Resources */,
 				65FC04081B6E7F68006DAA24 /* Icon-Decoded.png in Resources */,
-				65FC03C71B6E7EDB006DAA24 /* 多远都要在一起.mp3 in Resources */,
 				65FC03F91B6E7F68006DAA24 /* audio_btn_play_h-Decoded.png in Resources */,
 				658E7ACC1B6DFEDD00A82475 /* Main.storyboard in Resources */,
 				65FC03EE1B6E7F68006DAA24 /* audio_bg_up@2x-Decoded.png in Resources */,
