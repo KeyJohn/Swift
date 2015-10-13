@@ -18,13 +18,16 @@ class WXWindow: UIWindow {
     }
     */
     
+    
     /*
     window分发事件时会调用此方法
     此方法会被UIApplication调用，UIApplication将事件分发给weindow
     */
     override func sendEvent(event: UIEvent) {
         print("sendEvent")
+        //父类分发
         super.sendEvent(event)
+        
     }
 
 }
